@@ -1,0 +1,37 @@
+-- stylegan3 notebook
+https://colab.research.google.com/drive/1BXNHZBai-pXtP-ncliouXo_kUiG1Pq7M?usp=sharing#scrollTo=ZREJuYfjbV3G
+https://colab.research.google.com/github/ouhenio/StyleGAN3-CLIP-notebook/blob/main/StyleGAN3%2BCLIP.ipynb#scrollTo=QXoRP4SHzJ6i
+https://colab.research.google.com/github/pollinations/hive/blob/main/notebooks/1%20Text-To-Image/3%20CLIP-Guided%20StyleGAN3.ipynb#scrollTo=SW1JQY3bIpCf
+
+hair color change: 	https://github.com/GithubRealFan/HairColorChange
+skin color change: 	https://stackoverflow.com/questions/67237755/how-can-i-change-the-skin-color-of-a-human-body-image
+				  	https://github.com/cirbuk/skin-detection
+both:				https://github.com/orpatashnik/StyleCLIP
+					https://replicate.com/orpatashnik/styleclip?prediction=3nv5o7zbywvauha3kh2o4277fi&input=python
+high pass filter:	https://github.com/YuAo/YUCIHighPassSkinSmoothing
+
+-- prompt example
+attractive young woman, blond hair
+cute young boy, blond hair, blue eyes, smiling
+old man, short gray hair, glasses, wearing hat
+
+-- test image url
+https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+https://images.unsplash.com/photo-1618224884150-56e42a997a4b?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+https://img.freepik.com/premium-photo/studio-shot-young-beautiful-korean-businesswoman-against-white-background_251136-81565.jpg?w=740
+https://img.freepik.com/free-photo/front-view-beautiful-man_23-2148780802.jpg?w=740&t=st=1704837609~exp=1704838209~hmac=a4133bfc49105a9a3e107708666534aefc6fc78b3c55d44526380a192f6f3405
+
+-- models
+stylegan3-r-afhqv2-512x512.pkl
+stylegan3-r-ffhq-1024x1024.pkl
+stylegan3-r-ffhqu-1024x1024.pkl
+stylegan3-r-ffhqu-256x256.pkl
+stylegan3-r-metfaces-1024x1024.pkl
+stylegan3-r-metfacesu-1024x1024.pkl
+stylegan3-t-afhqv2-512x512.pkl
+stylegan3-t-ffhq-1024x1024.pkl
+stylegan3-t-ffhqu-1024x1024.pkl
+stylegan3-t-ffhqu-256x256.pkl
+stylegan3-t-metfaces-1024x1024.pkl
+stylegan3-t-metfacesu-1024x1024.pkl
