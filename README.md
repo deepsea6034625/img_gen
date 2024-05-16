@@ -1,6 +1,6 @@
 # This is my GAN project.
 
-How do you think about these photoes.
+How do you think about these photos.
 
 <img src="https://github.com/deepsea920415/img_gen/assets/155721694/54411bd2-6cc5-4eb4-9916-c5d69d6994ca" width="300" height="300">
 <img src="https://github.com/deepsea920415/img_gen/assets/155721694/65b40432-43b1-4432-b958-1023b31c0aaf" width="300" height="300">
